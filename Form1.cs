@@ -143,8 +143,8 @@ namespace SelectedTabPage
 				fntTab = new Font(e.Font, FontStyle.Bold);
 				bshBack = new System.Drawing.Drawing2D.LinearGradientBrush(e.Bounds, SystemColors.Control, SystemColors.Control, System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal);
 				bshFore = Brushes.Black;
-                //bshBack = new System.Drawing.Drawing2D.LinearGradientBrush(e.Bounds, Color.LightSkyBlue , Color.LightGreen, System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal);
-                bshBack = new System.Drawing.Drawing2D.LinearGradientBrush(e.Bounds, Color.FromArgb(81, 3, 133), Color.FromArgb(81, 3, 133), System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal);
+                //背景顏色為兩色的漸層 bshBack = new System.Drawing.Drawing2D.LinearGradientBrush(e.Bounds, Color.LightSkyBlue , Color.LightGreen, System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal);
+                bshBack = new System.Drawing.Drawing2D.LinearGradientBrush(e.Bounds, Color.FromArgb(81, 3, 133), Color.FromArgb(81, 3, 133), System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal);//背景色為純色
                 bshFore = Brushes.White;//Blue;
 
             }
@@ -160,6 +160,7 @@ namespace SelectedTabPage
      
 			string tabName  = this.tabControl1.TabPages[e.Index].Text;
 			StringFormat sftTab = new StringFormat();
+			sftTab.Alignment = StringAlignment.Center;//標籤文字置中
 			e.Graphics.FillRectangle(bshBack, e.Bounds);
 			Rectangle  recTab = e.Bounds;
 			recTab = new Rectangle( recTab.X,  recTab.Y + 4,  recTab.Width,  recTab.Height - 4);
