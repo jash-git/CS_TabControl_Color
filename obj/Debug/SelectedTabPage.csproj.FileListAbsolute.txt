@@ -1,0 +1,7 @@
+C:\Users\RD\Desktop\SelectedTabPage_src\obj\Debug\SelectedTabPage.exe
+C:\Users\RD\Desktop\SelectedTabPage_src\obj\Debug\SelectedTabPage.pdb
+C:\Users\RD\Desktop\SelectedTabPage_src\obj\Debug\SelectedTabPage.csprojResolveAssemblyReference.cache
+C:\Users\RD\Desktop\SelectedTabPage_src\obj\Debug\SelectedTabPage.Form1.resources
+C:\Users\RD\Desktop\SelectedTabPage_src\obj\Debug\SelectedTabPage.csproj.GenerateResource.Cache
+C:\Users\RD\Desktop\SelectedTabPage_src\bin\Debug\SelectedTabPage.exe
+C:\Users\RD\Desktop\SelectedTabPage_src\bin\Debug\SelectedTabPage.pdb

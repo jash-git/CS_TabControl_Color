@@ -1,0 +1,7 @@
+http://www.codeproject.com/useritems/DynamicMenuDataset.asp
+
+Selected TabPage style in Winform Tab Control
+
+Introduction
+In winform application, we can change the selected tab page style using DrawItem event in tabcontrol. See the below pictures for different styles.
+
